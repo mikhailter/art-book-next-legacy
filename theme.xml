@@ -39,20 +39,6 @@ theme name:    Art Book Next RGB30 v2025
    </subset>
    -->
 
-   <!-- Gamelist View Style -->
-   <subset name="gamelist-view-style" displayName="Gamelist View: Style">
-      <include name="metadata-on" displayName="Metadata On">./_inc/gamelist-view-style/metadata-on.xml</include>
-      <include name="metadata-on-immersive" displayName="Metadata On (Immersive)">./_inc/gamelist-view-style/metadata-on-immersive.xml</include>
-      <include name="metadata-off" displayName="Metadata Off">./_inc/gamelist-view-style/metadata-off.xml</include>
-      <include name="metadata-off-immersive" displayName="Metadata Off (Immersive)">./_inc/gamelist-view-style/metadata-off-immersive.xml</include>
-   </subset>
-
-   <!-- Gamelist View Loop Video -->
-   <subset name="gamelist-loop-video" displayName="Gamelist View: Loop Video">
-      <include name="off" displayName="Off">./_inc/vars/loop-video-off.xml</include>
-      <include name="on" displayName="On">./_inc/vars/loop-video-on.xml</include>
-   </subset>
-
    <view name="screen">
       <controllerActivity name="controllerActivity">
          <visible>false</visible>
@@ -203,7 +189,7 @@ theme name:    Art Book Next RGB30 v2025
       </text>
       <datetime name="md_releasedate,md_lastplayed">
          <origin>0 0.5</origin>
-         <pos>1 1</pos>
+         <pos>1 1</pos> 
          <fontPath>${fontBold}</fontPath>
          <color>${gamelistListMetadataColor}</color>
          <alignment>left</alignment>
@@ -212,14 +198,14 @@ theme name:    Art Book Next RGB30 v2025
       </datetime>
       <rating name="md_rating">
          <origin>0 0.5</origin>
-         <pos>1 1</pos>
+         <pos>1 1</pos> 
          <color>${gamelistListRatingColor}</color>
          <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
          <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
       </rating>
       <image name="md_releasedate_icon,md_players_icon,md_developer_icon,md_publisher_icon,md_genre_icon,md_lastplayed_icon,md_playcount_icon,md_gametime_icon" extra="true">
          <origin>0 0.5</origin>
-         <pos>1 1</pos>
+         <pos>1 1</pos> 
          <color>${gamelistListMetadataIconColor}</color>
       </image>
       <image name="md_releasedate_icon">
@@ -330,6 +316,20 @@ theme name:    Art Book Next RGB30 v2025
          <iconFastShutdown>./_inc/images/menu-icon-shutdown.svg</iconFastShutdown>
       </menuIcons>
    </view>
+
+   <!-- Gamelist View Style -->
+   <subset name="gamelist-view-style" displayName="Gamelist View: Style">
+      <include name="metadata-on" displayName="Metadata On">./_inc/gamelist-view-style/metadata-on.xml</include>
+      <include name="metadata-on-immersive" displayName="Metadata On (Immersive)">./_inc/gamelist-view-style/metadata-on-immersive.xml</include>
+      <include name="metadata-off" displayName="Metadata Off">./_inc/gamelist-view-style/metadata-off.xml</include>
+      <include name="metadata-off-immersive" displayName="Metadata Off (Immersive)">./_inc/gamelist-view-style/metadata-off-immersive.xml</include>
+   </subset>
+
+   <!-- Gamelist View Loop Video -->
+   <subset name="gamelist-loop-video" displayName="Gamelist View: Loop Video">
+      <include name="off" displayName="Off">./_inc/vars/loop-video-off.xml</include>
+      <include name="on" displayName="On">./_inc/vars/loop-video-on.xml</include>
+   </subset>
 
    <!-- Aspect Ratio -->
    <!-- <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include> -->

@@ -6,4 +6,11 @@
 			<zIndex>0</zIndex>
 		</image>
 	</view>
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.75 0.35</pos><!-- 480 155 -->
+         <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
+         <zIndex>2</zIndex>
+      </image>
+   </view>
 </theme>
