@@ -104,7 +104,6 @@ theme name:    Art Book Next RGB30 v2025
          <logoScale>2</logoScale>
          <logoSize>0.25 0.15</logoSize>
          <maxLogoCount>2</maxLogoCount>
-         <maxLogoCount ifSubset="system-view-style:centered-one-logo">1</maxLogoCount>
          <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
          <defaultTransition>instant</defaultTransition>
       </carousel>
@@ -121,7 +120,6 @@ theme name:    Art Book Next RGB30 v2025
          <zIndex>3</zIndex>
       </image>
       
-      <!-- System View Mask: Multi Artwork -->
       <image name="logo">
          <path>./_inc/systems/_default.png</path>
          <path>./_inc/systems/${system.theme}.png</path>
@@ -131,7 +129,7 @@ theme name:    Art Book Next RGB30 v2025
       <image name="background" extra="true">
          <color>000000</color>
       </image>
-   </view>
+   </view> 
 
    <view name="basic,detailed,video">
       <image name="logo">
