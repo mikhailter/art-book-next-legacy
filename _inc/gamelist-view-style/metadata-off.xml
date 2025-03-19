@@ -1,0 +1,11 @@
+<theme>
+        <view name="detailed,video">
+                <image name="game-metadata-background" extra="true">
+                        <origin>0 0</origin>
+                        <path>${spacerImage}</path>
+                        <tile>true</tile>
+                        <color>${gamelistListMetadataBackgroundColor}</color>
+                        <zIndex>2</zIndex>
+                </image>
+        </view>
+</theme>
