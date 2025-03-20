@@ -1,8 +1,10 @@
 # Art Book Next for ARKOS v2 (only for RGB30 now)
 
-* Forked from https://github.com/nkahoang/es-theme-art-book-next-arkos
-* Used styles from https://github.com/ljhmd0825/Arkos-RGB30-art-book-next
-* Original Theme https://github.com/anthonycaccese/art-book-next-es
+* Forked from:<br />
+  https://github.com/nkahoang/es-theme-art-book-next-arkos<br />
+  https://github.com/ljhmd0825/Arkos-RGB30-art-book-next<br />
+* Original theme:<br />
+  https://github.com/anthonycaccese/art-book-next-es
 
 --
 
