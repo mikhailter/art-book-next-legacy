@@ -1,10 +1,10 @@
 <!--
-theme name:    Art Book Next RGB30 v2025
+ES themes doc: https://retropie.org.uk/docs/Creating-Your-Own-EmulationStation-Theme/
 -->
+
 <theme defaultTransition="instant">
    <formatVersion>7</formatVersion>
 
-   <!-- Variables -->
    <variables>
       <fontBold>./_inc/fonts/Oxygen-Bold.ttf</fontBold>
       <fontLight>./_inc/fonts/Oxygen-Light.ttf</fontLight>
@@ -14,13 +14,11 @@ theme name:    Art Book Next RGB30 v2025
       <themeCustomizationsPath>./resources/customizations/art-book-next/</themeCustomizationsPath>
    </variables>
 
-   <!-- Aspect Ratio only for RGB30-->
    <subset name="aspect-ratio" displayName="Aspect Ratio">
 	 <include name="1-1" displayName="1:1">./_inc/vars/aspectratio-1-1.xml</include>
    </subset>
    
    <!-- Color Scheme -->
-   <include>./colors.xml</include>
    <subset name="color-scheme" displayName="Color Scheme">
       <include name="art-book-next" displayName="Art Book Next">./_inc/colors/art-book-next.xml</include>
       <include name="art-book" displayName="Art Book">./_inc/colors/art-book.xml</include>
@@ -31,7 +29,7 @@ theme name:    Art Book Next RGB30 v2025
       <include name="grayscale" displayName="Grayscale">./_inc/colors/grayscale.xml</include>
    </subset>
 
-   <!-- Fonts (not working now) -->
+   <!-- Fonts (disabled) -->
    <!-- 
    <subset name="fonts" displayName="Font Size">
       <include name="default" displayName="Default" />
@@ -330,7 +328,6 @@ theme name:    Art Book Next RGB30 v2025
    </subset>
 
    <!-- Aspect Ratio -->
-   <!-- <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include> -->
    <include>./aspect-ratio-${aspect-ratio}.xml</include>
 
    <!-- Game Count -->
