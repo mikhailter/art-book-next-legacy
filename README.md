@@ -1,4 +1,4 @@
-# Art Book Next for ARKOS v2 (only for RGB30 now)
+# Art Book Next for ARKOS fix (only for RGB30 with aspect ratio 1:1)
 
 * Forked from:<br />
   https://github.com/nkahoang/es-theme-art-book-next-arkos<br />

@@ -1,5 +1,8 @@
 <!--
-ES themes doc: https://retropie.org.uk/docs/Creating-Your-Own-EmulationStation-Theme/
+* Docs:
+	https://retropie.org.uk/docs/Creating-Your-Own-EmulationStation-Theme/
+	https://github.com/Jetup13/Emulationstation-OGA-Theme-Gallery/wiki/ES-Theming:-Gamelist-View
+	https://github.com/batocera-linux/batocera-emulationstation/blob/master/THEMES.md
 -->
 
 <theme defaultTransition="instant">
@@ -326,6 +329,15 @@ ES themes doc: https://retropie.org.uk/docs/Creating-Your-Own-EmulationStation-T
       <include name="off" displayName="Off">./_inc/vars/loop-video-off.xml</include>
       <include name="on" displayName="On">./_inc/vars/loop-video-on.xml</include>
    </subset>
+
+   <!-- System View Style -->
+<!--
+   <subset name="system-view-style" displayName="System View: Style">
+      <include name="multi" displayName="Multi Artwork">./_inc/systemview/systemview-multi.xml</include>
+      <include name="centered-one-logo" displayName="Centered Artwork (Single Logo)">./_inc/systemview/systemview-centered-one-logo.xml</include>
+      <include name="centered" displayName="Centered Artwork (Multiple Logos)">./_inc/systemview/systemview-centered.xml</include>
+   </subset>
+-->
 
    <!-- Aspect Ratio -->
    <include>./aspect-ratio-${aspect-ratio}.xml</include>
