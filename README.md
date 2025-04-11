@@ -9,4 +9,4 @@ The theme is for RGB30 only with aspect ratio 1:1<br/><br/>
 
 --
 
-The goal was to adapt previous art-book-next theme coversions for ArkOS, fix icons, clean some styles and disable marque.
+The goal was to fix previous art-book-next theme coversions for ArkOS

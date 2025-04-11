@@ -105,7 +105,6 @@
          <logoScale>2</logoScale>
          <logoSize>0.25 0.15</logoSize>
          <maxLogoCount>2</maxLogoCount>
-         <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
          <defaultTransition>instant</defaultTransition>
       </carousel>
       <text name="systemInfo">
@@ -151,7 +150,6 @@
          <selectedColor>${gamelistListTextlistSelectedColor}</selectedColor>
          <primaryColor>${gamelistListTextlistUnselectedColor}</primaryColor>
          <secondaryColor>${gamelistListTextlistUnselectedColor}</secondaryColor>
-         <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
          <zIndex>5</zIndex>
       </textlist>
       <image name="gamelist-background" extra="true">
@@ -341,6 +339,13 @@
 
    <!-- Aspect Ratio -->
    <include>./aspect-ratio-${aspect-ratio}.xml</include>
+
+   <!-- Sound -->
+   <subset name="scroll-sound" displayName="Scroll Sound">
+      <include name="new" displayName="New">./_inc/sounds/sound-new.xml</include>
+      <include name="legacy" displayName="Legacy">./_inc/sounds/sound-legacy.xml</include>
+      <include name="off" displayName="Off" />
+   </subset>
 
    <!-- Game Count -->
    <subset name="game-count" displayName="Game Count">

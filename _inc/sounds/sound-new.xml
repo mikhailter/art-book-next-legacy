@@ -1,0 +1,14 @@
+<theme>
+	<view name="system">
+		<carousel name="systemcarousel">
+			<scrollSound>./_inc/sounds/scroll-new.wav</scrollSound>
+		</carousel>
+	</view>
+	<view name="basic,detailed,video">
+		<textlist name="gamelist">
+			<scrollSound>./_inc/sounds/scroll-new.wav</scrollSound>
+		</textlist>
+	</view>
+</theme>
+			
+		
