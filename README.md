@@ -1,5 +1,5 @@
-# Art Book Next legacy - fix for the older ES on ArkOS/dArkOS<br/>
-The theme is for RGB30 with aspect ratio 1:1<br/><br/>
+# Art Book Next legacy<br/>
+fix for the older ES on ArkOS/dArkOS with 1:1 aspect ratio<br/><br/>
 
 * Forked from:<br />
   https://github.com/nkahoang/es-theme-art-book-next-arkos<br />
