@@ -1,5 +1,5 @@
 # Art Book Next legacy<br/>
-fix for the older ES on ArkOS/dArkOS with 1:1 aspect ratio<br/><br/>
+fix for the older ES on ArkOS/dArkOS with 1:1, 3:2, 4:3 aspect ratios<br/><br/>
 
 * Forked from:<br />
   https://github.com/nkahoang/es-theme-art-book-next-arkos<br />
