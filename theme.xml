@@ -19,6 +19,8 @@
 
    <subset name="aspect-ratio" displayName="Aspect Ratio">
 	 <include name="1-1" displayName="1:1">./_inc/vars/aspectratio-1-1.xml</include>
+	 <include name="3-2" displayName="3:2">./_inc/vars/aspectratio-3-2.xml</include>
+	 <include name="4-3" displayName="4:3">./_inc/vars/aspectratio-4-3.xml</include>
    </subset>
    
    <!-- Color Scheme -->
