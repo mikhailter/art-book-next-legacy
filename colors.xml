@@ -33,7 +33,6 @@
       <backgroundColor>000000</backgroundColor>
       <!-- System View -->
       <systemBackgroundColor>111111</systemBackgroundColor>
-      <systemCarouselBackgroundColor>000000</systemCarouselBackgroundColor>
       <systemArtColor>ffffff</systemArtColor>
       <systemArtSaturation>1</systemArtSaturation>
       <systemArtFade>00000044</systemArtFade>
@@ -41,6 +40,7 @@
       <systemLogoColor>eeeeee</systemLogoColor>
       <!-- Gamelist View - List Variants -->
       <gamelistListTextlistBackgroundColor>111111</gamelistListTextlistBackgroundColor>
+      <gamelistListImageBackgroundColor>000000</gamelistListImageBackgroundColor>
       <gamelistListLogoColor>ffffffaa</gamelistListLogoColor>
       <gamelistListTextlistSelectedColor>ffffff</gamelistListTextlistSelectedColor>
       <gamelistListTextlistUnselectedColor>ffffff33</gamelistListTextlistUnselectedColor>

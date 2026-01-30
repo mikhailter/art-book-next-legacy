@@ -1,0 +1,67 @@
+<theme>
+   <view name="detailed,video">
+	<image name="game-metadata-background" extra="true">
+		<origin>0 0</origin>
+		<path>${spacerImage}</path>
+		<tile>true</tile>
+		<color>${gamelistListMetadataBackgroundColor}</color>
+		<zIndex>2</zIndex>
+	</image>
+      <rating name="md_rating">
+         <origin>0 0.5</origin>
+         <pos>0.526875 0.745</pos><!-- 350 348 -->
+         <size>0 0.03</size><!-- x 20 -->
+      </rating>
+      <image name="md_releasedate_icon">
+         <origin>0 0.5</origin>
+         <pos>0.80 0.745</pos>
+	 <!--         <pos>0.782777777777778 0.73875</pos>--><!-- 470 345 --> 
+	 <!--<size>0.027777777777778 0.041666666666667</size>--><!-- 20 20 -->
+         <maxSize>0.02083 0.04</maxSize><!-- 40 40 -->
+      </image>
+      <datetime name="md_releasedate">
+         <origin>0 0.5</origin>
+         <pos>0.835 0.745</pos>
+	 <!--<pos>0.824444444444444 0.73875</pos>--><!-- 500 345 -->
+         <size>0.166666666666667 0.041666666666667</size><!-- 120 20 -->
+         <fontSize>0.023</fontSize><!-- 14 -->
+         <alignment>left</alignment>
+      </datetime>
+      <image name="md_players_icon">
+         <pos>0.91 0.745</pos>
+	      <!--<pos>0.784166666666667 0.774166666666667</pos>--><!-- 1640 1001 -->
+         <maxSize>0.02083 0.04</maxSize><!-- 40 40 -->
+      </image>
+      <text name="md_players">
+         <pos>0.94 0.745</pos>
+	      <!--<pos>0.824375 0.774166666666667</pos>--><!-- 1698 1001 -->
+         <fontSize>0.023</fontSize><!-- 28 -->
+      </text>
+      <text name="md_description">
+         <pos>0.526875 0.8</pos><!-- 350 380 -->
+         <size>0.44625 0.16</size><!-- 260 78 -->
+         <fontSize>0.025</fontSize><!-- 16 -->
+         <lineSpacing>1.22</lineSpacing>
+      </text>
+      <image name="game-metadata-background" extra="true">
+         <origin>0 1</origin>
+         <pos>0.5 1</pos><!-- 320 0 -->
+         <size>0.5 0.30</size><!-- 320 170-->
+         <zIndex>3</zIndex>
+      </image>
+   </view>
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.75 0.35</pos><!-- 480 155 -->
+         <maxSize>0.442 0.6</maxSize><!-- 480 480 -->
+         <zIndex>2</zIndex>
+      </image>
+   </view>
+   <view name="video">
+      <video name="md_video">
+	 <pos>0.75 0.383</pos><!-- 480 155 / 0.75 0.35-->
+	 <maxSize>0.442 0.6</maxSize><!-- 480 480 / 0.5 0.7-->
+         <zIndex>2</zIndex>
+      </video>
+   </view>
+</theme>

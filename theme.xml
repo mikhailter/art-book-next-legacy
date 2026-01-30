@@ -25,13 +25,12 @@
    
    <!-- Color Scheme -->
    <subset name="color-scheme" displayName="Color Scheme">
+      <include name="art-book-next-v2" displayName="Art Book Next v2">./_inc/colors/art-book-next-v2.xml</include>
       <include name="art-book-next" displayName="Art Book Next">./_inc/colors/art-book-next.xml</include>
-      <include name="art-book" displayName="Art Book">./_inc/colors/art-book.xml</include>
       <include name="steam-os" displayName="Steam OS">./_inc/colors/steam-os.xml</include>
       <include name="snes" displayName="SNES">./_inc/colors/snes.xml</include>
       <include name="famicom" displayName="Famicom">./_inc/colors/famicom.xml</include>
       <include name="black" displayName="Black">./_inc/colors/black.xml</include>
-      <include name="grayscale" displayName="Grayscale">./_inc/colors/grayscale.xml</include>
    </subset>
 
    <!-- Fonts (disabled) -->
@@ -162,7 +161,7 @@
          <zIndex>4</zIndex>
       </image>
       <image name="background" extra="true">
-         <color>${backgroundColor}</color>
+	      <color>${gamelistListImageBackgroundColor}</color>
          <zIndex>1</zIndex>
       </image>
    </view>
@@ -193,7 +192,8 @@
          <color>${gamelistListMetadataColor}</color>
          <alignment>left</alignment>
          <forceUppercase>true</forceUppercase>
-         <format>%Y-%m-%d</format>
+	 <!--<format>%Y-%m-%d</format>-->
+         <format>%Y</format>
       </datetime>
       <rating name="md_rating">
          <origin>0 0.5</origin>
@@ -241,8 +241,8 @@
 
    <view name="detailed">
       <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <zIndex>3</zIndex>
+      <origin>0.5 0.5</origin>
+      <zIndex>3</zIndex>
       </image>
    </view>
 
@@ -318,10 +318,11 @@
 
    <!-- Gamelist View Style -->
    <subset name="gamelist-view-style" displayName="Gamelist View: Style">
-      <include name="metadata-on" displayName="Metadata On">./_inc/gamelist-view-style/metadata-on.xml</include>
-      <include name="metadata-on-immersive" displayName="Metadata On (Immersive)">./_inc/gamelist-view-style/metadata-on-immersive.xml</include>
-      <include name="metadata-off" displayName="Metadata Off">./_inc/gamelist-view-style/metadata-off.xml</include>
-      <include name="metadata-off-immersive" displayName="Metadata Off (Immersive)">./_inc/gamelist-view-style/metadata-off-immersive.xml</include>
+      <include name="metadata-on" displayName="Metadata on, image boxed">./_inc/gamelist-view-style/metadata-on-boxed.xml</include>
+      <include name="metadata-on-fullwidth" displayName="Metadata on, image full width">./_inc/gamelist-view-style/metadata-on-fullwidth.xml</include>
+      <include name="metadata-on-crop" displayName="Metadata on, image cropped">./_inc/gamelist-view-style/metadata-on-crop.xml</include>
+      <include name="metadata-off-fullwidth" displayName="Metadata off, image full width">./_inc/gamelist-view-style/metadata-off-fullwidth.xml</include> 
+      <include name="metadata-off-crop" displayName="Metadata off, image cropped">./_inc/gamelist-view-style/metadata-off-crop.xml</include>
    </subset>
 
    <!-- Gamelist View Loop Video -->

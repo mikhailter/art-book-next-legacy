@@ -19,8 +19,8 @@
       <image name="md_image"> <!-- <zIndex>3</zIndex> -->
          <!--<pos>0.75 0.469</pos>--><!-- 480 240 -->
          <!--<maxSize>0.40625 0.895833333333333</maxSize>--><!-- 260 430 -->
-         <pos>0.75 0.35</pos><!-- 480 155 -->
-         <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
+         <pos>0.75 0.5</pos><!-- 480 155 -->
+         <maxSize>0.5 1</maxSize><!-- 480 480 -->
       </image>
 
       <!--<image name="md_marquee"> --> <!--  zIndex not set -->
@@ -40,8 +40,8 @@
       <video name="md_video"> <!-- <zIndex>3</zIndex> -->
          <!--<pos>0.75 0.469</pos>--><!-- 480 240 -->
          <!--<maxSize>0.46 0.895833333333333</maxSize>--><!-- 260 430 -->
-         <pos>0.75 0.35</pos><!-- 480 155 -->
-         <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
+         <pos>0.75 0.5</pos><!-- 480 155 -->
+         <maxSize>0.5 1</maxSize><!-- 480 480 -->
       </video>
 
       <!--<image name="md_marquee">--> <!--  zIndex not set -->
@@ -53,8 +53,6 @@
          <pos>0.60 0.80</pos>
          <maxSize>0.15 0.30</maxSize>
       </image> -->
-
    </view>
-
 </theme>
 

@@ -11,7 +11,8 @@
         <systemMaskColor>0D141C</systemMaskColor>
         <systemLogoColor>eeeeee</systemLogoColor>
         <!-- Gamelist View - List Variants -->
-        <gamelistListTextlistBackgroundColor>0D141C</gamelistListTextlistBackgroundColor>
+	<gamelistListTextlistBackgroundColor>0D141C</gamelistListTextlistBackgroundColor>
+	<gamelistListImageBackgroundColor>000000</gamelistListImageBackgroundColor>
         <gamelistListLogoColor>ffffffaa</gamelistListLogoColor>
         <gamelistListTextlistSelectedColor>ffffff</gamelistListTextlistSelectedColor>
         <gamelistListTextlistUnselectedColor>ffffff33</gamelistListTextlistUnselectedColor>

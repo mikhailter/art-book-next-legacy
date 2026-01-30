@@ -30,9 +30,9 @@
    </view>
 
    <view name="detailed">
-      <image name="md_image"> <!-- <zIndex>3</zIndex> -->
+	<image name="md_image"> <!-- <zIndex>3</zIndex> -->
          <origin>0.5 0.5</origin>
-         <pos>0.75 0.322916666666667</pos><!-- 480 155 -->
+         <pos>0.75 0.35</pos><!-- 480 155 -->
          <maxSize>1 1</maxSize><!-- 480 480 -->
          <zIndex>2</zIndex>
          <!--<color>FFFFFF99</color>--> <!-- 60% -->
