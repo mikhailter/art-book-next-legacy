@@ -36,10 +36,10 @@
          <fontSize>0.0875</fontSize>
       </text>
       <carousel name="systemcarousel">
-         <size>1.1 1</size>
          <logoScale>1</logoScale>
+         <size>1.1 1</size>
          <logoSize>1 1</logoSize>
-         <maxLogoCount>5</maxLogoCount>
+         <maxLogoCount>6</maxLogoCount>
       </carousel> 
       <image ifSubset="system-view-style:fullscreen-custom" name="system-art" extra="true">
          <size>0 1</size>

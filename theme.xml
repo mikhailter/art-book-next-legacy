@@ -14,13 +14,14 @@
       <fontRegular>./_inc/fonts/Oxygen-Regular.ttf</fontRegular>
       <fontLogo>./_inc/fonts/ChangaOne-Italic.ttf</fontLogo>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <themeCustomizationsPath>./resources/customizations/art-book-next/</themeCustomizationsPath>
+      <!-- <themeCustomizationsPath>./resources/customizations/art-book-next/</themeCustomizationsPath> -->
    </variables>
 
    <subset name="aspect-ratio" displayName="Aspect Ratio">
 	 <include name="1-1" displayName="1:1">./_inc/vars/aspectratio-1-1.xml</include>
 	 <include name="3-2" displayName="3:2">./_inc/vars/aspectratio-3-2.xml</include>
 	 <include name="4-3" displayName="4:3">./_inc/vars/aspectratio-4-3.xml</include>
+	 <include name="16-9" displayName="16:9">./_inc/vars/aspectratio-16-9.xml</include>
    </subset>
    
    <!-- Color Scheme -->

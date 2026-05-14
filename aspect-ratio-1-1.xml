@@ -8,7 +8,6 @@
       <text name="clock">
          <pos>0.5775 0.03125</pos>
          <size>0.4 0.05</size>
-         <textColor>eeeeee77</textColor>
          <fontSize>0.03</fontSize>
          <alignment>right</alignment>
          <verticalAlignment>center</verticalAlignment>
@@ -23,7 +22,7 @@
       </helpsystem>
    </view>
 
-   <view name="system,basic,detailed,video">s
+   <view name="system,basic,detailed,video">
       <helpsystem name="help">
          <textColor>eeeeee</textColor>
          <iconColor>eeeeee</iconColor>
@@ -38,16 +37,12 @@
       </text>
       <carousel name="systemcarousel">
          <logoScale>1</logoScale>
-         <logoSize>0.7 0.5</logoSize>
-         <maxLogoCount>1</maxLogoCount>
-      </carousel>
-      <carousel name="systemcarousel">
          <logoSize>1.025 1.025</logoSize>
          <maxLogoCount>3</maxLogoCount>
       </carousel> 
       <image ifSubset="system-view-style:fullscreen-custom" name="system-art" extra="true">
          <size>0 1</size>
-      </image> -->
+      </image> 
       <image name="syslogo" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
@@ -58,10 +53,9 @@
          <path>./_inc/logo/${system.theme}.png</path>
       </image>
       <text name="systemInfo">
-	     <color>ffffff</color>
-	     <backgroundColor>00000000</backgroundColor>
+	 <backgroundColor>00000000</backgroundColor>
          <fontSize>0.04</fontSize>
-                 <color>${systemLogoColor}</color>
+         <color>${systemLogoColor}</color>
          <zIndex>50</zIndex>
       </text> 
       <helpsystem name="help">
