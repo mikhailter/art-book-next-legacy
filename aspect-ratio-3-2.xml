@@ -14,7 +14,7 @@
          <color>${statusBarIconColor}</color>
       </text>
       <helpsystem name="help">
-         <z-index>55</z-index>
+         <zIndex>55</zIndex>
          <textColor>eeeeee</textColor>
          <iconColor>eeeeee</iconColor>
          <origin>0 0</origin>
@@ -62,7 +62,7 @@
       <helpsystem name="help">
          <textColor>eeeeee</textColor>
          <iconColor>eeeeee</iconColor>
-         <z-index>55</z-index>
+         <zIndex>55</zIndex>
       </helpsystem>
    </view>
 
