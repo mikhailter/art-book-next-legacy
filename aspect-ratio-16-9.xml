@@ -1,112 +1,11 @@
 <theme>
    <formatVersion>7</formatVersion>
-   <view name="screen">
-      <batteryIndicator name="batteryIndicator">
-         <pos>0.0325 0.03125</pos><!-- 0 15 -->
-         <size>0.978125 0.05</size><!-- 626 32 -->
-      </batteryIndicator>
-      <text name="clock">
-         <pos>0.5775 0.03125</pos>
-         <size>0.4 0.05</size>
-         <fontSize>0.03</fontSize>
-         <alignment>right</alignment>
-         <verticalAlignment>center</verticalAlignment>
-         <color>${statusBarIconColor}</color>
-      </text>
-      <helpsystem name="help">
-         <zIndex>55</zIndex>
-         <textColor>eeeeee</textColor>
-         <iconColor>eeeeee</iconColor>
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </helpsystem>
-   </view>
-
-   <view name="system,basic,detailed,video">
-      <helpsystem name="help">
-         <textColor>eeeeee</textColor>
-         <iconColor>eeeeee</iconColor>
-         <origin>0 0</origin>
-         <pos>1 1</pos>
-      </helpsystem>
-   </view>
-
    <view name="system">
-      <text name="logoText">
-         <fontSize>0.0875</fontSize>
-      </text>
       <carousel name="systemcarousel">
          <logoScale>1</logoScale>
          <size>1.1 1</size>
          <logoSize>1 1</logoSize>
          <maxLogoCount>6</maxLogoCount>
       </carousel> 
-      <image ifSubset="system-view-style:fullscreen-custom" name="system-art" extra="true">
-         <size>0 1</size>
-      </image>
-      <image name="syslogo" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <maxSize>0.7 0.5</maxSize>
-         <zIndex>50</zIndex>
-         <color>${systemLogoColor}</color>
-         <path>./_inc/logo/${system.theme}.svg</path>
-         <path>./_inc/logo/${system.theme}.png</path>
-      </image>
-      <text name="systemInfo">
-	 <backgroundColor>00000000</backgroundColor>
-         <fontSize>0.04</fontSize>
-         <color>${systemLogoColor}</color>
-         <zIndex>50</zIndex>
-      </text> 
-      <helpsystem name="help">
-         <textColor>eeeeee</textColor>
-         <iconColor>eeeeee</iconColor>
-         <zIndex>55</zIndex>
-      </helpsystem>
-   </view>
-
-   <view name="basic,detailed,video">
-      <image name="logo">
-         <maxSize>0.359375 0.104166666666667</maxSize><!-- 230 50 -->
-      </image>
-      <text name="logoText">
-         <size>0.359375 0.104166666666667</size><!-- 230 50 -->
-         <fontSize>0.05</fontSize>
-      </text>
-      <textlist name="gamelist">
-         <fontSize>0.032</fontSize><!-- 19 -->
-         <lineSpacing>1.5125</lineSpacing>
-      </textlist>
-   </view>
-
-   <view name="basic">
-      <image name="logo">
-         <pos>0.5 0.11875</pos><!-- 50% 55 -->
-      </image>
-      <text name="logoText">
-         <pos>0.5 0.11875</pos><!-- 50% 55 -->
-      </text>
-      <textlist name="gamelist">
-         <pos>0.5 0.229166666666667</pos><!-- 50% 110 -->
-         <size>0.84375 0.725</size><!-- 540 348 -->
-      </textlist>
-   </view>
-
-   <view name="detailed,video">
-      <image name="logo">
-         <pos>0.25 0.13875</pos><!-- 160 55 -->
-      </image>
-      <text name="logoText">
-         <pos>0.25 0.13875</pos><!-- 160 55 -->
-      </text>
-      <textlist name="gamelist">
-         <origin>0 0</origin>
-         <pos>0.0546875 0.229166666666667</pos><!-- 35 110 -->
-         <size>0.375 0.725</size><!-- 240 348 -->
-      </textlist>
-      <image name="gamelist-background" extra="true">
-         <size>0.5 1</size><!-- 320 480 -->
-      </image>
    </view>
 </theme>

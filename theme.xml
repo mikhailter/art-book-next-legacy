@@ -342,6 +342,7 @@
 -->
 
    <!-- Aspect Ratio -->
+   <include>./aspect-ratio-common.xml</include>
    <include>./aspect-ratio-${aspect-ratio}.xml</include>
 
    <!-- Sound -->
