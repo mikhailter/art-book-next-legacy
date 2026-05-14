@@ -71,8 +71,8 @@
       <image name="logo">
          <path>./_inc/logo/${system.theme}.svg</path>
          <path>./_inc/logo/${system.theme}.png</path>
-         <path ifSubset="color-scheme:custom">${themeCustomizationsPath}logos/${system.theme}.svg</path>
-         <path ifSubset="color-scheme:custom">${themeCustomizationsPath}logos/${system.theme}.png</path>
+	 <!-- <path ifSubset="color-scheme:custom">${themeCustomizationsPath}logos/${system.theme}.svg</path> -->
+	 <!-- <path ifSubset="color-scheme:custom">${themeCustomizationsPath}logos/${system.theme}.png</path> -->
       </image>
       <text name="logoText">
          <fontPath>${fontLogo}</fontPath>

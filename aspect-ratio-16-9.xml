@@ -11,7 +11,7 @@
          <fontSize>0.03</fontSize>
          <alignment>right</alignment>
          <verticalAlignment>center</verticalAlignment>
-         <color>ffffff</color>
+         <color>${statusBarIconColor}</color>
       </text>
       <helpsystem name="help">
          <z-index>55</z-index>
