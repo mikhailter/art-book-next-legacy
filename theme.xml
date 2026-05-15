@@ -313,7 +313,9 @@
          <iconKodi>./_inc/images/menu-icon-kodi.svg</iconKodi>
          <iconRestart>./_inc/images/menu-icon-restart.svg</iconRestart>
          <iconShutdown>./_inc/images/menu-icon-shutdown.svg</iconShutdown>
-         <iconFastShutdown>./_inc/images/menu-icon-shutdown.svg</iconFastShutdown>
+	 <iconFastShutdown>./_inc/images/menu-icon-shutdown.svg</iconFastShutdown>
+	 <iconOptions>./_inc/images/menu-icon-options.svg</iconOptions>
+	 <iconBrightnessctl>./_inc/images/menu-icon-brightness.svg</iconBrightnessctl>
       </menuIcons>
    </view>
 
