@@ -335,13 +335,13 @@
    </subset>
 
    <!-- System View Style -->
-<!--
+   <!--
    <subset name="system-view-style" displayName="System View: Style">
       <include name="multi" displayName="Multi Artwork">./_inc/systemview/systemview-multi.xml</include>
       <include name="centered-one-logo" displayName="Centered Artwork (Single Logo)">./_inc/systemview/systemview-centered-one-logo.xml</include>
       <include name="centered" displayName="Centered Artwork (Multiple Logos)">./_inc/systemview/systemview-centered.xml</include>
    </subset>
--->
+   -->
 
    <!-- Aspect Ratio -->
    <include>./aspect-ratio-common.xml</include>
